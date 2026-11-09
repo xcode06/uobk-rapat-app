@@ -1,10 +1,10 @@
-import React, { useState, useEffect, ChangeEvent, FormEvent } from 'react';
+import { useState, useEffect, ChangeEvent, FormEvent } from 'react';
 import { 
   LayoutDashboard, CalendarDays, Calendar as CalendarIcon, QrCode, DoorClosed, 
   FileText, CheckSquare, BarChart3, Database, Users, ShieldCheck, 
   Plus, RotateCcw, Menu, Clock, Search, Printer, UserCheck, 
-  Download, FileCheck, Edit, Trash2, X, LogOut, Award, AlertTriangle,
-  CheckCircle2, PlayCircle, Eye, RefreshCw, ChevronRight, Check
+  FileCheck, Edit, Trash2, X, Award, AlertTriangle,
+  CheckCircle2, PlayCircle
 } from 'lucide-react';
 
 // --- TYPES & INTERFACES ---
